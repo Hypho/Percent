@@ -36,10 +36,10 @@ var app = {};
 
 var option;
 
-var ROOT_PATH = 'https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/examples'
+var ROOT_PATH = 'ROOT_PATH'
 
 myChart.showLoading();
-$.getJSON(ROOT_PATH + '/data/asset/data/les-miserables.json', function (graph) 
+$.getJSON(ROOT_PATH + '/json/les-miserables.json', function (graph) 
 // $.getJSON("les-miserables.json", function (graph) 
 {
   myChart.hideLoading();
